@@ -14,6 +14,9 @@
                 exit;
     }
 
+
+
+    
     $num   = $_GET["num"];
 
     $con = mysqli_connect("localhost", "user1", "12345", "sample");

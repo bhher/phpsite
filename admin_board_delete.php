@@ -14,6 +14,7 @@
                 exit;
     }
 
+    
     if (isset($_POST["item"]))
         $num_item = count($_POST["item"]); 
     else
@@ -24,6 +25,9 @@
                     </script>
         ");
 
+
+
+        
     $con = mysqli_connect("localhost", "user1", "12345", "sample");
 
     for($i=0; $i<count($_POST["item"]); $i++){
